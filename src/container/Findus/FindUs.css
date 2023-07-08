@@ -1,0 +1,9 @@
+
+.app__wrapper_map{
+    transition: 0.5s ease-in-out;
+}
+
+.app__wrapper_map:hover {
+    opacity: 0.5;
+
+}

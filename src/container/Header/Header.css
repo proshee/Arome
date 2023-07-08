@@ -1,0 +1,152 @@
+.app__header {
+  position: relative;
+}
+
+.app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 120px;
+  font-size: 70px;
+  -webkit-text-stroke: 1px;
+  z-index: 2;
+}
+.app__wrapper_img {
+  position: relative;
+}
+
+.app__wrapper_img img {
+  opacity: 0.9;
+}
+
+.app__header-img img {
+  width: 80%;
+  z-index: 2;
+}
+
+.app__wrapper_info p {
+  z-index: 2;
+}
+
+.app__header_drag1-img {
+  position: absolute;
+  width: 1118px;
+  z-index: 0;
+  opacity: 0.1;
+  top: 10px;
+  right: 500px;
+}
+
+@media screen and (max-width: 2000px) {
+  .app__header_drag1-img {
+    width: 843px;
+    left: -18px;
+  }
+  .app__laurel_drag1-img {
+    width: 793px;
+    top: 248rem;
+    left: 0rem;
+  }
+  .app__laurel-img{
+    width: 40rem;
+    margin: 5rem 0;
+  }
+  .app__findUS-img {
+    width: 40rem;
+    margin: 5rem 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .app__header_drag1-img {
+    width: 843px;
+    left: -18px;
+  }
+  .app__laurel_drag1-img {
+    width: 729px;
+    top: 432rem;
+    left: 12rem;
+  }
+  .app__laurel-img{
+    width: 40rem;
+  }
+  .app__findUS-img {
+    width: 40rem;
+    margin: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .app__header_drag1-img {
+    width: 576px;
+    right: 0px;
+  }
+  .app__laurel_drag1-img {
+    width: 567px;
+    top: 477rem;
+    left: 10rem;
+  }
+  .app__laurel-img{
+    width: 40rem;
+  }
+  .app__findUS-img {
+    width: 40rem;
+    margin: 5rem 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  .app__header_drag1-img {
+    width: 518px;
+    right: 0px;
+    top: 5rem;
+  }
+  .app__laurel_drag1-img {
+    width: 372px;
+    top: 448rem;
+    left: 10rem;
+  }
+  .app__laurel-img{
+    width: 40rem;
+  }
+  .app__findUS-img {
+    width: 40rem;
+    margin: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .app__header_drag1-img {
+    width: 411px;
+    right: 0px;
+    top: 25rem;
+  }
+  .app__laurel_drag1-img {
+    width: 367px;
+    left: 0rem;
+  }
+  .app__laurel-img{
+    width: 30rem;
+  }
+  .app__findUS-img {
+    width: 30rem;
+    margin: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .app__header_drag1-img {
+    width: 353px;
+    right: 41px;
+    top: 201px;
+  }
+  .app__laurel_drag1-img {
+    width: 356px;
+    left: 0rem;
+  }
+  .app__laurel-img{
+    width: 17rem;
+  }
+  .app__findUS-img {
+    width: 17rem;
+  }
+}
